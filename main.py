@@ -12,7 +12,7 @@ def main():
     portfolioNumbers = int(input("How many portfolios do you want to simulate? Default is 5,000. ") or 5000)
     initialCapital = float(input("How much initial capital do you want?  Default is 10,000. ") or 10000) # Initial capital in USD.
     simulationDays = int(input("How many days do you want to simulate? Default is 252 (1 financial year). ") or 252) # Number of days (252 simulationDays = 1 year)
-    simulations = int(input("How many simulations do you want to run? Default is 10,000. ") or 10000) # Number of simulations ran.
+    simulations = int(input("How many paths do you want to run? Default is 10,000. ") or 10000) # Number of simulations ran.
     lookBack = int(input("How many years of data would you like to sample? Default is 5. ") or 5)
     maxWeight = float(input("What would you like the max weight for any asset to be? (0-1) Default is .25. ") or .25)
 
