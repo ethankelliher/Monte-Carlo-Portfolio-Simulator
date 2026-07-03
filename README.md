@@ -19,7 +19,6 @@ Uses Historical Data from Yahoo Finance, runs a large amount of random simulatio
   - Value at Risk (VaR 95%)
   - Conditional Value at Risk (CVaR)
   - Average & Worst drawdown.
-- 
 - Displays a chart of possible outcomes, top 95%, bottom 5%, & median (50%).
 - Benchmarks against the S&P 500
 - Outputs the best portfolio based on risk-adjusted return.
