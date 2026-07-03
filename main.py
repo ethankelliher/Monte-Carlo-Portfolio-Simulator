@@ -14,7 +14,7 @@ def main():
     simulationDays = int(input("How many days do you want to simulate? Default is 252 (1 financial year). ") or 252) # Number of days (252 simulationDays = 1 year)
     simulations = int(input("How many simulations do you want to run per portfolio? Default is 10,000. ") or 10000) # Number of simulations ran.
     lookBack = int(input("How many years of data would you like to sample? Default is 5. ") or 5)
-    maxWeight = float(input("What would you like the max weight for any asset to be? (0-1) Default is .25 ") or .25)
+    maxWeight = float(input("What would you like the max weight for any asset to be? (0-1) Default is .25. ") or .25)
 
     end = dt.datetime.now()
     start = end - dt.timedelta(days=365*lookBack) # dt works with actual days, not market days.
